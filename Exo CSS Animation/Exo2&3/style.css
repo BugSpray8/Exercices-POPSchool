@@ -1,0 +1,39 @@
+.exo2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-timing-function: linear;
+    transition-duration: 0.7s;
+
+}
+
+.exo2:hover {
+    width: 300px;
+}
+div.one {
+    
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-timing-function: linear;
+    transition-duration: 0.7s;
+
+}
+
+div.two {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition-delay: 1s;
+    transition-duration: 0.7s;
+
+    
+}
+
+div#main:hover .one  {
+    width: 300px;
+}
+
+div#main:hover .two  {
+    width: 300px;
+}

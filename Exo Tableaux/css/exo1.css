@@ -1,0 +1,26 @@
+table
+{
+    border-collapse: collapse; 
+}
+td, th
+{
+    border: 1px solid black;
+    width: 100px;
+    height: auto;
+    text-align: right;
+}
+.head{
+    background-color: grey;
+    text-align: left;
+
+}
+.name{
+    background-color: cornsilk;
+    text-align: left;
+}
+.right{
+    border-left-width: thin ;
+}
+.left{
+    border-right-width: thin ;
+}

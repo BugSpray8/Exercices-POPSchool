@@ -1,0 +1,27 @@
+.card{
+    border: 1px solid black;
+    width: 286px;
+    padding-bottom: 10px;
+}
+
+.cardblue{
+    border: 1px solid dodgerblue;
+    width: 286px;
+    color: dodgerblue;
+    padding-bottom: 10px;
+}
+.card__a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 15px;
+}
+.card__title{
+    padding-left: 10px;
+}
+.card__text{
+    padding-left: 10px;
+}

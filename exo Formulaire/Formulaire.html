@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <form method="post" action="traitement.php">
+        <p>
+            <label for="pseudo">Name :</label>
+            <input type="text" name="pseudo" id="pseudo" placeholder="Name"/>
+            
+            <br />
+            <label for="pass">Password :</label>
+            <input type="password" name="pass" id="pass" placeholder="aA!@/"/>
+            
+        </p>
+        <p>Party:<br />
+            <input type="radio" name="party" value="Republican" id="rep" /> <label for="Republican">Republican</label><br />
+            <input type="radio" name="party" value="Democrate" id="dem" /> <label for="Democrate">Democrate</label><br />
+        </p>
+        <label for="state">State</label><br />
+        <select name="state" id="state">
+                <option value="Alabama">Alabama</option>
+                <option value="Oregon">Oregon</option>
+                <option value="Washington">Washington</option>
+                <option value="Montana">Montana</option>
+                <option value="California">California</option>
+                <option value="Texas">Texas</option>
+                <option value="New-York">New-York</option>
+                <option value="Louisiana">Louisiana</option>
+        </select><br>
+        <label for="comment">
+            Comment :
+            </label>
+            <br />
+            
+            <textarea name="comment" id="comment" rows="10" cols="50" placeholder="Comment for spending democratie arround the world !">
+            </textarea><br>
+            Send me more information :
+       <input type="checkbox" name="send" id="send" /> <label for="send">Spam my mailsbox</label><br />
+            <input type="reset" value="clear info">
+            <input type="submit" value="send info" />       
+      
+     </form>
+    
+</body>
+</html>
