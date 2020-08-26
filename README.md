@@ -1,5 +1,5 @@
 # Exercices-POPSchool
-Multiple exercice réalisé dans la formation POP
+Multiples exercices réalisés dans le cadre de la formation POP
 
 Attention ! 
 
